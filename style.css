@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, #120e43ae, #120e43ae),
+    url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+  background-position: center;
+  color: #edc126;
+  padding: 5em;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.list-item {
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.button-small {
+  color: #fff;
+  background-color: #ef5354;
+  font-size: 23px;
+  padding: 7px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  height: 80vh;
+}
+
+.hero-heading {
+  display: flex;
+  width: 65%;
+  font-size: 110px;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}
+
+.button-large {
+  color: #fff;
+  background-color: #ef5354;
+  font-size: 25px;
+  padding: 15px 35px;
+  border: none;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.bottom > div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.bottom > div > img {
+  width: 150px;
+}
