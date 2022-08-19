@@ -13,7 +13,7 @@ body {
     url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
   background-position: center;
   color: #edc126;
-  padding: 5em;
+  margin: 5em;
 }
 
 /* ------------------------------ */
@@ -82,4 +82,41 @@ body {
 
 .bottom > div > img {
   width: 150px;
+}
+
+/*  */
+@media (max-width: 480px) {
+  body {
+    margin: 30px;
+  }
+
+  .nav-logo img {
+    width: 70px;
+  }
+
+  .nav-list {
+    /* font-size: 14px; */
+    display: none;
+  }
+
+  .button-small {
+    font-size: 16px;
+    padding: 7px 10px;
+  }
+
+  /*  */
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .button-large {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .bottom > div {
+    display: flex;
+    justify-content: center;
+  }
 }
